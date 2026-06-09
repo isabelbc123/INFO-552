@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+    <html lang = "en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Muscle Care</title>
+        </head>
+        <style>
+          body {
+            margin:0;
+            padding: 0;
+            background-color: #41493C
+          }
+        
+          .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            background-color: #8da488;
+            margin: 5px;
+            border-radius: 10px;
+          }
+
+          .navbar a {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            color: #412d24;
+            padding: 20px 22px;
+            text-decoration: none;
+            background: none;
+            border-radius: 10px;
+          }
+
+          .subnav {
+            position: relative;
+            display: flex;
+            padding-bottom: 0;
+          }
+
+          .subnav .subnavbtn {
+            font-size: 24px;
+            color: #412d24;
+            padding: 20px 22px;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            font-family: inherit;
+            border-radius: 10px;
+          }
+
+          .navbar a:hover, .subnav:hover .subnavbtn {
+            background-color: #41493C;
+            color: #f8f0de;
+          }
+
+          .subnav-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #41493C;
+            min-width: 100%;
+            z-index: 1;
+            margin-top: 0;
+            border-radius: 10px;
+          }
+
+          .subnav-content a {
+              display: block;
+              float: none;
+              color: #f8f0de;
+              padding: 20px 22px;
+              text-decoration: none;
+          }
+
+          .subnav-content a:hover {
+            background-color: #f8f0de;
+            color: #412d24;
+          }
+
+          .subnav:hover .subnav-content {
+            display: block;
+          }
+
+          .contentBox {
+            border: 5px solid #8da488;
+            border-radius: 10px;
+            padding: 30px;
+            margin: 20px auto;
+            max-width: 85%;
+            background-color: #f8f0de;
+            color: #412d24;
+            font-size: 24px;
+            text-align: center;
+          }
+
+        .linkedButton {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #8da488;
+            color: #412d24;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .linkedButton:hover {
+            background-color: #41493C;
+            color: #f8f0de;
+        }
+
+        h1 {font-family: Arial, sans-serif;text-align: center; font-size: 32px;}
+        p {font-family: Arial, sans-serif; text-align: center;}
+        ul {font-family: Arial, sans-serif; text-align: left;}
+
+      </style>
+      <body>
+      <img src="rockWallBackgroundjpeg.jpeg" style=" width: 100%; height: auto; margin:0px; border-radius: 10px;">
+          <div class="navbar">
+            <a href="index.html">Home</a>
+            <div class="subnav">
+              <button class="subnavbtn">Fall Safety&#9660;</button>
+              <div class="subnav-content">
+                <a href="topRope.html">Top Rope Climbing</a>
+                <a href="bouldering.html">Bouldering</a>
+                <a href="leadClimbing.html">Lead Climbing</a>
+              </div>
+            </div>
+            <div class="subnav">
+              <button class="subnavbtn">Common Injury Prevention&#9660;</button>
+              <div class="subnav-content">
+                <a href="warmUpCoolDown.html">Warm Up and Cool Down</a>
+                <a href="crossTraining.html">Cross-Training</a>
+                <a href="overworkedMuscleCare.html">Overworked Muscle Care</a>
+              </div>
+            </div>
+            <a href="furtherReading.html">Further Learning</a>
+          </div>
+           <div class = "contentBox">
+            <h1>How to Prevent Soreness</h1>
+                <ul>
+                    <li>Drink lots of water. Water helps your body expel waste products, which can be the cause of soreness.</li>
+                    <li>Eat a diet high in protein and carbs. Protein helps your muscle fibers rebuild and carbs give you much needed energy.</li>
+                    <li>When trying a new exercise, try easing into it. For example, if you are trying a new weight lifting exercise, lift a little lighter than you think you should. This allows your body to adapt to new movements.</li>
+                    <li>Warm up and cool down properly. Check out more information about warm up and cool down for climbers.</li>
+                </ul> 
+                 <div class="linkedButton">
+                  <p href="warmUpCoolDown.html">Warm Up and Cool Down</p>  
+                 </div> 
+            </div>
+          <div class = "contentBox">
+            <h1>How to Treat Soreness After It Happens</h1>
+                <ul>
+                    <li>Rest. Make sure you get at least 7-9 hours of sleep every night, and avoid strenuous exercise of the affected area.</li>
+                    <li>Get a massage or use a foam roller. A professional massage can help increase blood flow and relieve tension in muscles. If that&apos;s not an option, you can give yourself a massage with a foam roller.</li>
+                    <li>Continue to exercise lightly. It&apos;s important to keep moving in order to increase blood flow to sore muscles, but don&apos;t overdo it.</li>
+                    <li>Consider using ice packs or heating pads. Coldness can help with pain management and decrease inflammation, while heat helps to increase blood flow.</li>
+                </ul> 
+          </div>
+    </body>
+</html>

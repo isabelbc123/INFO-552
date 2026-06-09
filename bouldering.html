@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+    <html lang = "en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Bouldering</title>
+        </head>
+        <style>
+          body {
+            margin:0;
+            padding: 0;
+            background-color: #41493C
+          }
+        
+          .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            background-color: #8da488;
+            margin: 5px;
+            border-radius: 10px;
+          }
+
+          .navbar a {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            color: #412d24;
+            padding: 20px 22px;
+            text-decoration: none;
+            background: none;
+            border-radius: 10px;
+          }
+
+          .subnav {
+            position: relative;
+            display: flex;
+            padding-bottom: 0;
+          }
+
+          .subnav .subnavbtn {
+            font-size: 24px;
+            color: #412d24;
+            padding: 20px 22px;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            font-family: inherit;
+            border-radius: 10px;
+          }
+
+          .navbar a:hover, .subnav:hover .subnavbtn {
+            background-color: #41493C;
+            color: #f8f0de;
+          }
+
+          .subnav-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #41493C;
+            min-width: 100%;
+            z-index: 1;
+            margin-top: 0;
+            border-radius: 10px;
+          }
+
+          .subnav-content a {
+              display: block;
+              float: none;
+              color: #f8f0de;
+              padding: 20px 22px;
+              text-decoration: none;
+          }
+
+          .subnav-content a:hover {
+            background-color: #f8f0de;
+            color: #412d24;
+          }
+
+          .subnav:hover .subnav-content {
+            display: block;
+          }
+
+          .contentBox {
+            border: 5px solid #8da488;
+            border-radius: 10px;
+            padding: 30px;
+            margin: 20px auto;
+            max-width: 85%;
+            background-color: #f8f0de;
+            color: #412d24;
+            font-size: 24px;
+            text-align: center;
+          }
+
+        .linkedButton {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #8da488;
+            color: #412d24;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .linkedButton:hover {
+            background-color: #41493C;
+            color: #f8f0de;
+        }
+
+        h1 {font-family: Arial, sans-serif;text-align: center; font-size: 32px;}
+        p {font-family: Arial, sans-serif; text-align: center;}
+        ul {font-family: Arial, sans-serif; text-align: left;}
+
+      </style>
+      <body>
+      <img src="rockWallBackgroundjpeg.jpeg" style=" width: 100%; height: auto; margin:0px; border-radius: 10px;">
+           <div class="navbar">
+            <a href="index.html">Home</a>
+            <div class="subnav">
+              <button class="subnavbtn">Fall Safety&#9660;</button>
+              <div class="subnav-content">
+                <a href="topRope.html">Top Rope Climbing</a>
+                <a href="bouldering.html">Bouldering</a>
+                <a href="leadClimbing.html">Lead Climbing</a>
+              </div>
+            </div>
+            <div class="subnav">
+              <button class="subnavbtn">Common Injury Prevention&#9660;</button>
+              <div class="subnav-content">
+                <a href="warmUpCoolDown.html">Warm Up and Cool Down</a>
+                <a href="crossTraining.html">Cross-Training</a>
+                <a href="overworkedMuscleCare.html">Overworked Muscle Care</a>
+              </div>
+            </div>
+            <a href="furtherReading.html">Further Learning</a>
+          </div>
+          <div class = "contentBox">
+            <h1>What is Bouldering?</h1>
+                <p>Bouldering is a type of climbing that involves climbing shorter distances without a rope or harness to catch your fall. As a result, it's important to understand how to fall safely and maintain a safe landing area.</p>
+          </div>
+          <div class = "contentBox">
+            <h1>Landing Area</h1>
+                <ul>
+                    <li>Before you ascend the wall, make sure your landing area is clear.</li>
+                    <li>Don&apos;t necessarily place crash pads right up against the wall. Place them where you&apos;re most likely to land, which could be further out.</li>
+                    <li>Arrange your crash pads to minimize gaps between them.</li>
+                    <li>Never walk underneath somebody who is actively bouldering.</li>
+                    <li>Whenever possible, climb down the wall instead of jumping or falling.</li>
+                </ul>    
+          </div>
+          <div class = "contentBox">
+            <h1>Proper Falling Technique</h1>
+                <ul>
+                    <li>Try to land on your feet, with your knees bent. You don&apos;t want to lock your knees straight because that ensures that your joints will absorb all of the impact.</li>
+                    <li>As you are landing, tuck your chin in. Let the momentum carry you onto your back. This way, your entire body absorbs the impact.</li>
+                    <li>Always keep your arms close to your chest. This prevents you from bracing the fall with your hands, which can lead to wrist injury.</li>
+                    <li>Practice falling before going to the top of a wall. Muscle memory will help you!</li>
+                </ul>    
+          </div>
+          <div class = "contentBox">
+            <h1>Want to learn more?</h1>
+                <p>Watch this video from Central Rock Gym to see safe falls in action!</p>
+                <div class="linkedButton">
+                  <p href="https://centralrockgym.com/blog/crg-news/how-to-fall-bouldering/">Fall Technique Video</p>
+                </div>
+          </div>
+    </body>
+</html>

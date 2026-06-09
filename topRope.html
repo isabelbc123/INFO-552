@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+    <html lang = "en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Top Rope Climbing</title>
+        </head>
+        <style>
+          body {
+            margin:0;
+            padding: 0;
+            background-color: #41493C
+          }
+        
+          .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            background-color: #8da488;
+            margin: 5px;
+            border-radius: 10px;
+          }
+
+          .navbar a {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            color: #412d24;
+            padding: 20px 22px;
+            text-decoration: none;
+            background: none;
+            border-radius: 10px;
+          }
+
+          .subnav {
+            position: relative;
+            display: flex;
+            padding-bottom: 0;
+          }
+
+          .subnav .subnavbtn {
+            font-size: 24px;
+            color: #412d24;
+            padding: 20px 22px;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            font-family: inherit;
+            border-radius: 10px;
+          }
+
+          .navbar a:hover, .subnav:hover .subnavbtn {
+            background-color: #41493C;
+            color: #f8f0de;
+          }
+
+          .subnav-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #41493C;
+            min-width: 100%;
+            z-index: 1;
+            margin-top: 0;
+            border-radius: 10px;
+          }
+
+          .subnav-content a {
+              display: block;
+              float: none;
+              color: #f8f0de;
+              padding: 20px 22px;
+              text-decoration: none;
+          }
+
+          .subnav-content a:hover {
+            background-color: #f8f0de;
+            color: #412d24;
+          }
+
+          .subnav:hover .subnav-content {
+            display: block;
+          }
+
+          .contentBox {
+            border: 5px solid #8da488;
+            border-radius: 10px;
+            padding: 30px;
+            margin: 20px auto;
+            max-width: 85%;
+            background-color: #f8f0de;
+            color: #412d24;
+            font-size: 24px;
+            text-align: center;
+          }
+
+        .linkedButton {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #8da488;
+            color: #412d24;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .linkedButton:hover {
+            background-color: #41493C;
+            color: #f8f0de;
+        }
+
+        h1 {font-family: Arial, sans-serif;text-align: center; font-size: 32px;}
+        p {font-family: Arial, sans-serif; text-align: center;}
+        ul {font-family: Arial, sans-serif; text-align: left;}
+
+      </style>
+      <body>
+      <img src="rockWallBackgroundjpeg.jpeg" style=" width: 100%; height: auto; margin:0px; border-radius: 10px;">
+          <div class="navbar">
+             <div class="navbar">
+            <a href="index.html">Home</a>
+            <div class="subnav">
+              <button class="subnavbtn">Fall Safety&#9660;</button>
+              <div class="subnav-content">
+                <a href="topRope.html">Top Rope Climbing</a>
+                <a href="bouldering.html">Bouldering</a>
+                <a href="leadClimbing.html">Lead Climbing</a>
+              </div>
+            </div>
+            <div class="subnav">
+              <button class="subnavbtn">Common Injury Prevention&#9660;</button>
+              <div class="subnav-content">
+                <a href="warmUpCoolDown.html">Warm Up and Cool Down</a>
+                <a href="crossTraining.html">Cross-Training</a>
+                <a href="overworkedMuscleCare.html">Overworked Muscle Care</a>
+              </div>
+            </div>
+            <a href="furtherReading.html">Further Learning</a>
+          </div>
+          </div>
+          <div class = "contentBox">
+            <h1>What is Top Rope Climbing?</h1>
+                <p>Top rope climbing is usally done on taller walls. There is typically a rope anchored to the top of the wall, with one end connected to the climber's harness and the other to the belayer. When top rope climbing its important that the climber and belayer trust each other and communicate effectively</p>
+          </div>
+          <div class = "contentBox">
+            <h1>For Climbers</h1>
+                <ul>
+                    <li>Always ensure that your harness is snug and secure.</li>
+                    <li>Make sure you&apos;re tied in correctly. The standard tying method is the figure&mdash;eight follow&mdash;through, with 6 inches of extra rope at the end.</li>
+                    <li>Confirm that your belayer is ready before you start climbing.</li>
+                </ul>    
+          </div>
+          <div class = "contentBox">
+            <h1>For Belayers</h1>
+                <ul>
+                    <li>Always keep one hand on the brake rope.</li>
+                    <li>Stay attentive and pick up slack as soon as possible.</li>
+                    <li>When your climber is ready to descend, lower them slowly.</li>
+                </ul>    
+          </div>
+          <div class = "contentBox">
+            <h1>Commands to Know</h1>
+                <ul>
+                    <li><strong>On belay?</strong> &mdash; A climber asks this to check if the belayer is ready.</li>
+                    <li><strong>Belay on.</strong> &mdash; A belayer says this to confirm that they are ready.</li>
+                    <li><strong>Climbing.</strong> &mdash; A climber says this when they are about to start climbing.</li>
+                    <li><strong>Climb on.</strong> &mdash; A belayer says this to acknowledge that the climber will start climbing.</li>
+                    <li><strong>Up Rope</strong> &mdash; A climber says this to ask the belayer to take in some slack.</li>
+                    <li><strong>Slack</strong> &mdash; A climber says this to ask the beylayer to create slack by letting out some rope.</li>
+                    <li><strong>Take</strong> &mdash; A climber's command for the belayer to take in some slack and hold in the brake position.</li>
+                    <li><strong>Gotcha</strong> &mdash; A belayer says this to confirm that they have taken in the slack and are in the brake position.</li>
+                    <li><strong>Falling</strong> &mdash; A Climber says this when they are about to fall.</li>
+                    <li><strong>Ready to Lower</strong> &mdash; A climber says this to inform the belayer that they are ready to be lowered to the ground.</li>
+                    <li><strong>Lowering</strong> &mdash; A belayer says this to confirm that they are lowering the climber down.</li>
+                    <li><strong>Off Belay</strong> &mdash; A climber says this upon returning to the ground to communicate that they no longer need to be belayed.</li>
+                    <li><strong>Belay Off</strong> &mdash; A belayer says this to confirm that they have stopped belaying.</li>
+                </ul>
+          </div>
+           <div class = "contentBox">
+            <h1>Conversation between Climber and Belayer Before Climbing</h1>
+                <p>Climber: <strong>On belay?</strong></p>
+                <p>Belayer: <strong>Belay on.</strong></p>
+                <p>Climber: <strong>Climbing.</strong></p>
+                <p>Belayer: <strong>Climb on.</strong></p>
+          </div>
+          <div class = "contentBox">
+            <h1>Want to learn more?</h1>
+                <p>Most climbing gyms have top rope belay classes, so be sure to check out your local gym!</p>
+                <p>Here's a directory of climbing gyms all over the world.</p>
+                <div class="linkedButton">
+                  <p href="https://www.mountainproject.com/gym">Directory of Climbing Gyms</p>
+                </div>
+          </div>
+    </body>
+</html>

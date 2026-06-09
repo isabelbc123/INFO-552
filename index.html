@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+    <html lang = "en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Home</title>
+        </head>
+        <style>
+          body {
+            margin:0;
+            padding: 0;
+            background-color: #41493C
+          }
+        
+          .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            background-color: #8da488;
+            margin: 5px;
+            border-radius: 10px;
+          }
+
+          .navbar a {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            color: #412d24;
+            padding: 20px 22px;
+            text-decoration: none;
+            background: none;
+            border-radius: 10px;
+          }
+
+          .subnav {
+            position: relative;
+            display: flex;
+            padding-bottom: 0;
+          }
+
+          .subnav .subnavbtn {
+            font-size: 24px;
+            color: #412d24;
+            padding: 20px 22px;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            font-family: inherit;
+            border-radius: 10px;
+          }
+
+          .navbar a:hover, .subnav:hover .subnavbtn {
+            background-color: #41493C;
+            color: #f8f0de;
+          }
+
+          .subnav-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #41493C;
+            min-width: 100%;
+            z-index: 1;
+            margin-top: 0;
+            border-radius: 10px;
+          }
+
+          .subnav-content a {
+              display: block;
+              float: none;
+              color: #f8f0de;
+              padding: 20px 22px;
+              text-decoration: none;
+          }
+
+          .subnav-content a:hover {
+            background-color: #f8f0de;
+            color: #412d24;
+          }
+
+          .subnav:hover .subnav-content {
+            display: block;
+          }
+
+          .contentBox {
+            border: 5px solid #8da488;
+            border-radius: 10px;
+            padding: 30px;
+            margin: 20px auto;
+            max-width: 85%;
+            background-color: #f8f0de;
+            color: #412d24;
+            font-size: 24px;
+            text-align: center;
+          }
+
+          .contentBox2 {
+            border-left: 10px solid #8da488;
+            border-radius: 10px;
+            padding: 30px;
+            margin: 20px auto;
+            max-width: 30%;
+            background-color: #f8f0de;
+            color: #412d24;
+            font-size: 24px;
+            text-align: center;
+          }
+
+        .linkedButton {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #8da488;
+            color: #412d24;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .linkedButton:hover {
+            background-color: #41493C;
+            color: #f8f0de;
+        }
+
+        .columns{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          text-align: center;
+          vertical-align: middle;
+          align-items: center;
+        }
+
+        .columns > div {
+          width: 275px;
+          height: 135px;
+          padding: 0px;
+          margin: 20px;
+          font-size: 32px;
+          border-left: 10px solid #8da488;
+          border-radius: 10px;
+          background-color: #f8f0de;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .columns a {
+          color: #412d24;
+          text-decoration: none;
+        }
+
+        .columns > div:hover {
+            background-color: #8da488;
+        }
+
+          .columns > div:hover a {
+          color: #f8f0de;
+          }
+
+        h1 {font-family: Arial, sans-serif;text-align: center; font-size: 32px;}
+        p {font-family: Arial, sans-serif; text-align: center;}
+        ul {font-family: Arial, sans-serif; text-align: left;}
+
+      </style>
+      <body>
+    <img src="rockWallBackgroundjpeg.jpeg" style=" width: 100%; height: auto; margin:0px; border-radius: 10px;">
+    <div class="navbar">
+            <a href="index.html">Home</a>
+            <div class="subnav">
+              <button class="subnavbtn">Fall Safety&#9660;</button>
+              <div class="subnav-content">
+                <a href="topRope.html">Top Rope Climbing</a>
+                <a href="bouldering.html">Bouldering</a>
+                <a href="leadClimbing.html">Lead Climbing</a>
+              </div>
+            </div>
+            <div class="subnav">
+              <button class="subnavbtn">Common Injury Prevention&#9660;</button>
+              <div class="subnav-content">
+                <a href="warmUpCoolDown.html">Warm Up and Cool Down</a>
+                <a href="crossTraining.html">Cross-Training</a>
+                <a href="overworkedMuscleCare.html">Overworked Muscle Care</a>
+              </div>
+            </div>
+            <a href="furtherReading.html">Further Learning</a>
+          </div>
+           <div class = "contentBox">
+            <h1>Welcome!</h1>
+                <p>This website is meant to be a resource for rock climbers looking to learn more about safety and injury prevention when climbing. The information provided is meant to be a broad overview of many different topics as an educational resource. Rock climbing is dangerous, and climbers engage with the sport at their own risk.  This information is not intended to be a substitute for professional safety or medical advice. Happy climbing!</p>
+            </div>
+          <div class = "contentBox2">
+            <h1>Learn More About...</h1>
+          </div>
+            <div class = "columns">
+              <div><a href="topRope.html">Top Rope Climbing</a></div>
+              <div><a href="bouldering.html">Bouldering</a></div>
+              <div><a href="leadClimbing.html">Lead Climbing</a></div>
+            </div>
+             <div class = "columns">
+              <div><a href="warmUpCoolDown.html">Warm Up and Cool Down</a></div>
+              <div><a href="crossTraining.html">Cross-Training</a></div>
+              <div><a href="overworkedMuscleCare.html">Overworked Muscle Care</a></div>
+            </div>
+    </body>
+</html>

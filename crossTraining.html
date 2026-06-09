@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+    <html lang = "en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Cross Training</title>
+        </head>
+        <style>
+          body {
+            margin:0;
+            padding: 0;
+            background-color: #41493C
+          }
+        
+          .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            background-color: #8da488;
+            margin: 5px;
+            border-radius: 10px;
+          }
+
+          .navbar a {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            color: #412d24;
+            padding: 20px 22px;
+            text-decoration: none;
+            background: none;
+            border-radius: 10px;
+          }
+
+          .subnav {
+            position: relative;
+            display: flex;
+            padding-bottom: 0;
+          }
+
+          .subnav .subnavbtn {
+            font-size: 24px;
+            color: #412d24;
+            padding: 20px 22px;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            font-family: inherit;
+            border-radius: 10px;
+          }
+
+          .navbar a:hover, .subnav:hover .subnavbtn {
+            background-color: #41493C;
+            color: #f8f0de;
+          }
+
+          .subnav-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #41493C;
+            min-width: 100%;
+            z-index: 1;
+            margin-top: 0;
+            border-radius: 10px;
+          }
+
+          .subnav-content a {
+              display: block;
+              float: none;
+              color: #f8f0de;
+              padding: 20px 22px;
+              text-decoration: none;
+          }
+
+          .subnav-content a:hover {
+            background-color: #f8f0de;
+            color: #412d24;
+          }
+
+          .subnav:hover .subnav-content {
+            display: block;
+          }
+
+          .contentBox {
+            border: 5px solid #8da488;
+            border-radius: 10px;
+            padding: 30px;
+            margin: 20px auto;
+            max-width: 85%;
+            background-color: #f8f0de;
+            color: #412d24;
+            font-size: 24px;
+            text-align: center;
+          }
+
+        .linkedButton {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #8da488;
+            color: #412d24;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .linkedButton:hover {
+            background-color: #41493C;
+            color: #f8f0de;
+        }
+
+        h1 {font-family: Arial, sans-serif;text-align: center; font-size: 32px;}
+        p {font-family: Arial, sans-serif; text-align: center;}
+        ul {font-family: Arial, sans-serif; text-align: left;}
+
+      </style>
+      <body>
+    <img src="rockWallBackgroundjpeg.jpeg" style=" width: 100%; height: auto; margin:0px; border-radius: 10px;">
+    <div class="navbar">
+            <a href="index.html">Home</a>
+            <div class="subnav">
+              <button class="subnavbtn">Fall Safety&#9660;</button>
+              <div class="subnav-content">
+                <a href="topRope.html">Top Rope Climbing</a>
+                <a href="bouldering.html">Bouldering</a>
+                <a href="leadClimbing.html">Lead Climbing</a>
+              </div>
+            </div>
+            <div class="subnav">
+              <button class="subnavbtn">Common Injury Prevention&#9660;</button>
+              <div class="subnav-content">
+                <a href="warmUpCoolDown.html">Warm Up and Cool Down</a>
+                <a href="crossTraining.html">Cross-Training</a>
+                <a href="overworkedMuscleCare.html">Overworked Muscle Care</a>
+              </div>
+            </div>
+            <a href="furtherReading.html">Further Learning</a>
+          </div>
+           <div class = "contentBox">
+            <h1>Why Cross Train?</h1>
+                <ul>
+                    <li>Climbing uses some muscle groups more than others. This can cause imbalances, which can lead to injury.</li>
+                    <li>Strength training can help you build strength faster to push past training plateaus.</li>
+                    <li>You can increase your endurance, grip strength, and mobility, all of which will help you climb more effectively.</li>
+                </ul> 
+            </div>
+          <div class = "contentBox">
+            <h1>Cardio</h1>
+                <ul>
+                    <li>Doing cardio can help you build endurance and learn how to control your breathing while under stress</li>
+                    <li>Try to do an activity that raises your heart rate 2-3 times a week for 30-60 minutes at a time.</li>
+                </ul> 
+          </div>
+            <div class = "contentBox">
+            <h1>Weight Lifting/ Strength Training</h1>
+                <ul>
+                    <li>Try for a lower weight with more reps because when you are climbing, you are moving continuously. This simulates that pattern.</li>
+                    <li>Target your rotator cuff and latissimus dorsi &lpar;lats&rpar;. Your rotator cuff helps stabilize your shoulder, while your lats help you pull your body up. Both of these muscles are very helpful when climbing!</li>
+                    <li>Also be sure to add in lower body and core movements, as the body parts help you remain stable while on the wall.</li>
+                    <li>Check out the link below for some exercises you can try. Many of the movements are done using a resistance band, but you can use a cable machine with more weight as you get more comfortable with the movements.</li>
+                </ul>  
+            <div class="linkedButton">
+                 <p href="https://www.rei.com/learn/expert-advice/rock-climbing-how-to-cross-train.html">Strength Training for Climbers</p>
+            </div>
+          </div>
+    </body>
+</html>
